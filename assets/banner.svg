@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Anthony Ríos — Data Engineer, Google Cloud, plataformas de datos listas para IA">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#111B33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#3B5BDB" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#3B5BDB" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <style>
+      .name{font:700 54px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#F4F6FB;letter-spacing:-1px}
+      .role{font:600 22px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8FB0FF}
+      .sub{font:400 17px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#A9B3C7}
+      .chip{font:600 13px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#DCE3F2}
+      .lbl{font:600 13px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#C9D2E3;text-anchor:middle}
+      .cap{font:400 11px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#7D879C;text-anchor:middle}
+      .flow{fill:none;stroke:#5C7CFA;stroke-width:2;stroke-dasharray:6 8;stroke-linecap:round}
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glow)"/>
+
+  <!-- Texto -->
+  <text x="64" y="118" class="name">Anthony Ríos</text>
+  <text x="66" y="160" class="role">Data Engineer · Google Cloud · AI-ready Data Platforms</text>
+  <text x="66" y="194" class="sub">Pipelines event-driven, arquitectura Medallion e IaC</text>
+  <text x="66" y="218" class="sub">para llevar Analytics, ML e IA Generativa a producción.</text>
+
+  <g transform="translate(66,248)">
+    <rect width="132" height="30" rx="15" fill="#1C2A4A" stroke="#2F4372"/>
+    <text x="66" y="20" class="chip" text-anchor="middle">Lima, Perú</text>
+    <rect x="144" width="176" height="30" rx="15" fill="#13324A" stroke="#1F5A7A"/>
+    <circle cx="162" cy="15" r="4.5" fill="#38D39F"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="242" y="20" class="chip" text-anchor="middle">Remoto · Híbrido</text>
+  </g>
+
+  <!-- Pipeline: fuentes → bronze → silver → gold → IA -->
+  <g transform="translate(24,0)">
+    <path d="M756 121 C774 121 774 148 792 156" fill="none" stroke="#33446B" stroke-width="1.5"/>
+    <path d="M756 199 C774 199 774 172 792 164" fill="none" stroke="#33446B" stroke-width="1.5"/>
+    <path class="flow" d="M756 160 H792"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path class="flow" d="M848 160 H882"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path class="flow" d="M938 160 H972"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path class="flow" d="M1028 160 H1060"><animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+
+    <rect x="700" y="106" width="56" height="30" rx="7" fill="#1A2440" stroke="#33446B"/>
+    <rect x="700" y="145" width="56" height="30" rx="7" fill="#1A2440" stroke="#33446B"/>
+    <rect x="700" y="184" width="56" height="30" rx="7" fill="#1A2440" stroke="#33446B"/>
+    <text x="728" y="125" class="cap" style="fill:#B7C2D9">Pub/Sub</text>
+    <text x="728" y="164" class="cap" style="fill:#B7C2D9">GCS · S3</text>
+    <text x="728" y="203" class="cap" style="fill:#B7C2D9">OCR</text>
+    <text x="728" y="240" class="cap">Fuentes</text>
+
+    <circle cx="820" cy="160" r="28" fill="#2A1C10" stroke="#CD7F32" stroke-width="2.5"/>
+    <text x="820" y="165" class="lbl" style="fill:#E6A15C">B</text>
+    <text x="820" y="212" class="cap">Bronze</text>
+
+    <circle cx="910" cy="160" r="28" fill="#1C222C" stroke="#C3CAD6" stroke-width="2.5"/>
+    <text x="910" y="165" class="lbl" style="fill:#E3E8F0">S</text>
+    <text x="910" y="212" class="cap">Silver</text>
+
+    <circle cx="1000" cy="160" r="28" fill="#2B2410" stroke="#E8B54A" stroke-width="2.5"/>
+    <text x="1000" y="165" class="lbl" style="fill:#F2CB6C">G</text>
+    <text x="1000" y="212" class="cap">Gold</text>
+
+    <rect x="1060" y="132" width="56" height="56" rx="14" fill="#16204A" stroke="#7C9CFF" stroke-width="2.5"/>
+    <text x="1088" y="166" class="lbl" style="fill:#AFC2FF;font-size:16px">IA</text>
+    <text x="1088" y="212" class="cap">Analytics · ML · GenAI</text>
+  </g>
+</svg>
