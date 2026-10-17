@@ -98,10 +98,10 @@ Me interesa la parte de la ingeniería que hace que la IA funcione de verdad en 
         <img src="https://img.shields.io/badge/LLM-Groq-F55036?style=flat-square" />
       </p>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="middle">
       <a href="https://github.com/tonninors/fitnessai-connect">
-        <img src="https://raw.githubusercontent.com/tonninors/fitnessai-connect/master/docs/screenshots/inicio.png" width="150" alt="Pantalla de inicio de FitnessAI Connect" />
-        <img src="https://raw.githubusercontent.com/tonninors/fitnessai-connect/master/docs/screenshots/sesion-en-vivo.png" width="150" alt="Sesión en vivo de FitnessAI Connect" />
+        <img src="https://raw.githubusercontent.com/tonninors/fitnessai-connect/master/docs/screenshots/inicio.png" width="125" alt="Pantalla de inicio de FitnessAI Connect" />
+        <img src="https://raw.githubusercontent.com/tonninors/fitnessai-connect/master/docs/screenshots/sesion-en-vivo.png" width="125" alt="Sesión en vivo de FitnessAI Connect" />
       </a>
     </td>
   </tr>
